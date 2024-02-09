@@ -19,7 +19,14 @@ h1 span{
 }
 
 h2{
+	padding: 10px 0px 10px 40px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Anton', sans-serif;
+}
 
+h2 span {
+	color: rgb(8, 184, 125);
 }
 
 
@@ -47,8 +54,6 @@ h2{
 	transition: transform 1.5s ease; 
 }
 
-
-
 .carousel_1 .slick-dots{
 	display: flex;
 	justify-content: center;
@@ -74,6 +79,51 @@ h2{
 	background-color: #000;
 }
 
+
+
+/* secondCarousel */
+
+.secondCarousel{
+	background-color: rgb(213, 214, 214);
+	width: auto;
+	height: 100vh;
+}
+
+.carousel_2{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slide_2 img{
+	padding: 60px 25px;
+}
+
+.carousel_2 .slick-dots{
+	display: flex;
+	justify-content: center;
+	margin-top: 35px;
+}
+.carousel_2 .slick-dots li{
+	list-style: none;
+	margin: 0px;
+}
+.carousel_ .slick-dots li button{
+	background-color: #00000083;
+	border: 2px solid #00000083;
+	border-radius: 50%;
+	width: 13px;
+	height: 13px;
+	margin: 0 2px;
+	padding: 0;
+	display: block;
+	font-size: 0;
+}
+
+.carousel_2 .slick-dots li.slick-active button{
+	background-color: #000;
+}
 
 /* Footer */
 
