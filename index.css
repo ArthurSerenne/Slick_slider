@@ -1,24 +1,64 @@
+/* Générale */
+
 body{
-    background-color: aquamarine;
     margin: 0;
     padding: 0;
 }
 
-.slider{
-    background-color: orange;
-    padding: 50px 20px;
+h1{
+	text-align: center;
+	padding: 40px 0px 40px 0px;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Anton', sans-serif;
 }
 
-.slider .slick-dots{
+h1 span{
+	background: linear-gradient(0, rgb(8, 184, 125) 30%, #FFF 30%);
+	transform: translate();
+}
+
+h2{
+
+}
+
+
+/* firstCarousel */
+
+.firstCarousel{
+	background-color: rgb(213, 214, 214);
+	width: auto;
+	height: 100vh;
+}
+
+.carousel_1{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slide_1 img{
+	padding: 60px 25px;
+}
+
+.slick-center{
+	transform: scale(1.2); 
+	transition: transform 1.5s ease; 
+}
+
+
+
+.carousel_1 .slick-dots{
 	display: flex;
 	justify-content: center;
 	margin-top: 35px;
 }
-.slider .slick-dots li{
+.carousel_1 .slick-dots li{
 	list-style: none;
 	margin: 0px;
 }
-.slider .slick-dots li button{
+.carousel_1 .slick-dots li button{
 	background-color: #00000083;
 	border: 2px solid #00000083;
 	border-radius: 50%;
@@ -30,20 +70,14 @@ body{
 	font-size: 0;
 }
 
-.slider .slick-dots li.slick-active button{
+.carousel_1 .slick-dots li.slick-active button{
 	background-color: #000;
 }
 
-.slick-slide img {
-    transform: scale(1); 
-}
 
-.slick-center img {
-	width: 381px;
-    transform: scale(1.2); 
-    transition: transform 1.5s ease; 
-}
+/* Footer */
 
-.slider .slick-list {
-	padding: 50px 10px !important;
+footer p{
+	text-align: center;
+	padding-top: 10px;
 }

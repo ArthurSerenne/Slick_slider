@@ -1,7 +1,7 @@
-if(jQuery('.slider').length) {
-  jQuery('.slider').slick({
+if(jQuery('.carousel_1').length) {
+  jQuery('.carousel_1').slick({
     centerMode: true,
-    centerPadding: '20px',
+    centerPadding: '0px',
     infinite: true,
     slidesToShow: 5,
     slidesToScroll: 1,
