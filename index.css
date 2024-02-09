@@ -1,0 +1,49 @@
+body{
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+}
+
+.slider{
+    background-color: orange;
+    padding: 50px 20px;
+}
+
+.slider .slick-dots{
+	display: flex;
+	justify-content: center;
+	margin-top: 35px;
+}
+.slider .slick-dots li{
+	list-style: none;
+	margin: 0px;
+}
+.slider .slick-dots li button{
+	background-color: #00000083;
+	border: 2px solid #00000083;
+	border-radius: 50%;
+	width: 13px;
+	height: 13px;
+	margin: 0 2px;
+	padding: 0;
+	display: block;
+	font-size: 0;
+}
+
+.slider .slick-dots li.slick-active button{
+	background-color: #000;
+}
+
+.slick-slide img {
+    transform: scale(1); 
+}
+
+.slick-center img {
+	width: 381px;
+    transform: scale(1.2); 
+    transition: transform 1.5s ease; 
+}
+
+.slider .slick-list {
+	padding: 50px 10px !important;
+}
